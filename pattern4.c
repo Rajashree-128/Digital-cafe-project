@@ -7,8 +7,8 @@ int c=1;
 printf("Enter the size:");
 scanf("%d",&size);
 for(int i=1;i<size;i++){
-for(int j=1;j<size;j++){
-    printf("%d ",j);
+for(int j=1;j<i;j++){
+    printf("%d ",c++);
 }
     printf("\n");
 }
